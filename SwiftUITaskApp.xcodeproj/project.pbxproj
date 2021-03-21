@@ -13,6 +13,7 @@
 		03AF72DD26073240008D9114 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AF72DC26073240008D9114 /* Preview Assets.xcassets */; };
 		03AF72DF26073240008D9114 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF72DE26073240008D9114 /* Persistence.swift */; };
 		03AF72E226073240008D9114 /* SwiftUITaskApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03AF72E026073240008D9114 /* SwiftUITaskApp.xcdatamodeld */; };
+		03AF72ED26073370008D9114 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF72EC26073370008D9114 /* NewTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		03AF72DE26073240008D9114 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		03AF72E126073240008D9114 /* SwiftUITaskApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUITaskApp.xcdatamodel; sourceTree = "<group>"; };
 		03AF72E326073240008D9114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AF72EC26073370008D9114 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				03AF72D52607323A008D9114 /* SwiftUITaskAppApp.swift */,
-				03AF72D72607323A008D9114 /* ContentView.swift */,
+				03AF72EA26073350008D9114 /* View */,
 				03AF72D926073240008D9114 /* Assets.xcassets */,
 				03AF72DE26073240008D9114 /* Persistence.swift */,
 				03AF72E326073240008D9114 /* Info.plist */,
@@ -73,6 +75,15 @@
 				03AF72DC26073240008D9114 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03AF72EA26073350008D9114 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03AF72D72607323A008D9114 /* ContentView.swift */,
+				03AF72EC26073370008D9114 /* NewTaskView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03AF72DF26073240008D9114 /* Persistence.swift in Sources */,
+				03AF72ED26073370008D9114 /* NewTaskView.swift in Sources */,
 				03AF72D82607323A008D9114 /* ContentView.swift in Sources */,
 				03AF72E226073240008D9114 /* SwiftUITaskApp.xcdatamodeld in Sources */,
 				03AF72D62607323A008D9114 /* SwiftUITaskAppApp.swift in Sources */,
